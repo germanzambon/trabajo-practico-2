@@ -39,7 +39,7 @@ text-align: center;
 }
 
 .catalogo div{
-   border: black solid 2px;
+   
    border-radius: 30px;
 padding: 10px; 
 margin: 10px;
@@ -48,6 +48,7 @@ flex-direction: column;
 align-items: center;
 height: 450px;
 width: 400px;
+box-shadow: 3px 3px 3px 3px grey;
 
 }
 
@@ -56,14 +57,20 @@ width: 400px;
     width: 300px;
     
  }
-
- .catalogo  button{
-    display: flex;
-    
+ .catalogo button{
+    display: flex; 
+    border-radius: 10px;
  }
 
  h3{
-    color: red;
-    
+    color: red;  
  }
- 
+
+.footer{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr 3fr;
+    justify-items: center;
+   background-color: grey;
+   color: white;
+   margin-top: 10px;
+}
