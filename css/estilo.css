@@ -1,16 +1,22 @@
+img{
+    width: 150px;
+    height: 150px;
+    
+}
+
+
 .navegacion{
     background-color: black;
     
 img{
     width: 100px;
+    height: 100px;
     background-color: black;
 }
 }
 
 h1{
    color: black; 
+text-align: center;
 }
-p{
-    color: black;
-    border: 3px;
-}
+

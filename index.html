@@ -1,109 +1,179 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/estilo.css">
-  </head>
-  <body>
-    <nav class="navegacion">
-<!-- logo -->
-<a href="./index.html">
-  <img src="./recursos/logo2.jpg" alt="logo">
- AGREGAR BOTONES ACA
 
-<!-- BARRA DE NAVEGACION -->
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  
-  <div class="container-fluid">
-    <a class="navbar-brand" href="./index.html">INICIO</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/estilo.css">
+</head>
+
+<body>
+  <nav class="navegacion">
+    <!-- logo -->
+    <a href="./index.html">
+      <img src="./recursos/logo2.jpg" alt="logo">
+
+      <!--AGREGAR BOTONES-->
+      <button type="button" class="btn btn-light">INGRESAR</button>
+      <button type="button" class="btn btn-light">REGISTRARSE</button>
+      <button type="button" class="btn btn-light">CARRITO</button>
+
+
+      <!-- BARRA DE NAVEGACION -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">INICIO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+              <li class="nav-item">
+                <a class="nav-link" href="./secciones/microprocesador.html">MICROPROCESADOR</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./secciones/placamadre.html">PLACA MADRE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./secciones/memoriaram.html">MEMORIA RAM</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./secciones/placadevideo.html">PLACA DE VIDEO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./secciones/almacenamiento.html">ALMACENAMIENTO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./secciones/fuente.html">FUENTE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./secciones/gabinete.html">GABINETE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./secciones/monitor.html">MONITOR</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./secciones/contactanos.html">CONTACTANOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./secciones/nosotros.html">NOSOTROS</a>
+              </li>
+
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="BUSCAR..." aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">BUSCAR</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+  </nav>
+  <!-- carrusel de imagenes -->
+
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="https://images.unsplash.com/photo-1598986646512-9330bcc4c0dc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29tcHV0YWRvcmFzfGVufDB8MHwwfHx8Mg%3D%3D"
+          class="d-block w-100" alt="1">
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://images.unsplash.com/photo-1591370874773-6702e8f12fd8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGNvbXB1dGFkb3Jhc3xlbnwwfDB8MHx8fDI%3D"
+          class="d-block w-100" alt="2">
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://images.unsplash.com/photo-1507764923504-cd90bf7da772?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y29tcHV0YWRvcmFzfGVufDB8MHwwfHx8Mg%3D%3D"
+          class="d-block w-100" alt="3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-       
-        <li class="nav-item">
-          <a class="nav-link" href="./secciones/microprocesador.html">MICROPROCESADOR</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./secciones/placamadre.html">PLACA MADRE</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./secciones/memoriaram.html">MEMORIA RAM</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./secciones/placadevideo.html">PLACA DE VIDEO</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./secciones/almacenamiento.html">ALMACENAMIENTO</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./secciones/fuente.html">FUENTE</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./secciones/gabinete.html">GABINETE</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./secciones/monitor.html">MONITOR</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./secciones/contactanos.html">CONTACTANOS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./secciones/nosotros.html">NOSOTROS</a>
-        </li>
-        
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="BUSCAR..." aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">BUSCAR</button>
-      </form>
-    </div>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
-</nav>
-</nav>
-<!-- carrusel de imagenes -->
+  </nav>
 
-<div id="carouselExampleIndicators" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://images.unsplash.com/photo-1598986646512-9330bcc4c0dc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29tcHV0YWRvcmFzfGVufDB8MHwwfHx8Mg%3D%3D" class="d-block w-100" alt="1">
-    </div>
-    <div class="carousel-item">
-      <img src="https://images.unsplash.com/photo-1591370874773-6702e8f12fd8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGNvbXB1dGFkb3Jhc3xlbnwwfDB8MHx8fDI%3D" class="d-block w-100" alt="2">
-    </div>
-    <div class="carousel-item">
-      <img src="https://images.unsplash.com/photo-1507764923504-cd90bf7da772?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y29tcHV0YWRvcmFzfGVufDB8MHwwfHx8Mg%3D%3D" class="d-block w-100" alt="3">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-</nav>
 
-<!-- texto sobre la empresa -->
-<div class="parrafo">
-<p class="container-fluid">somos computech, una empresa destinada a la venta de componentes para computadoras, orientada a la comodidad de los usuarios y a la vez ofrecer una buena calidad de productos</p>
+  <!-- imagenes de esponsors -->
+  <h1>MARCAS QUE TRABAJAMOS</h1>
+  <section class="container-fluid">
+    <!-- primer fila -->
+    <div class="row">
+      <div class="col-lg-2 col-md-4 col-sm-6">
+        <img src="https://cdn.worldvectorlogo.com/logos/ryzen.svg" alt="logo ryzen">
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-6">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Intel_logo_%282006-2020%29.svg/2560px-Intel_logo_%282006-2020%29.svg.png"
+          alt="intel logo">
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-6">
+        <img src="https://1000logos.net/wp-content/uploads/2021/04/HyperX-logo.png" alt="hyperx logo">
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-6">
+        <img src="https://1000marcas.net/wp-content/uploads/2021/02/Corsair-Logo-tumb-1280x720.png" alt="corsair logo">
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-6">
+        <img src="https://cdn.worldvectorlogo.com/logos/asus-logo.svg" alt="asus logo">
+      </div>
+      <div class="col-lg-2 col-md-4 col-sm-6">
+        <img
+          src="data:image/png;base64,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"
+          alt="gigabyte logo">
+      </div>
+      <!-- segunda fila -->
+      <div class="row">
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <img src="https://cdn.worldvectorlogo.com/logos/redragon.svg" alt="redragon logo">
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <img src="https://1000marcas.net/wp-content/uploads/2020/03/Amd-logo-1.jpg" alt="amd logo">
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <img
+            src="data:image/png;base64,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"
+            alt="wd logo">
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <img src="https://mauricomputacion.com.ar/images/productos/galerias/18918/1085372175.jpg" alt="sentey logo">
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Samsung_logo_blue.png" alt="SAMSUNG logo">
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6">
+          <img src="https://1000marcas.net/wp-content/uploads/2020/01/Phillips-Logo-2008.png" alt="philips logo">
+        </div>
+      </div>
 
-<!-- imagenes de esponsors -->
-<h1>SPONSORS</h1>
-  
-    AGREGAR MARCAS
+  </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
