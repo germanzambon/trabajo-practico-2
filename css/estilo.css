@@ -1,3 +1,18 @@
+.carousel {
+
+    width: 1000px;
+    margin: auto;
+}
+
+.carousel-item img {
+
+    height: 500px;
+    width: 1000px;
+
+
+
+}
+
 img {
     width: 150px;
     height: 150px;
@@ -7,21 +22,22 @@ img {
 
 .navegacion {
     background-color: black;
+    border-bottom: black solid;
 
- a{
-    display: flex !important;
-    justify-content: center;
-    
-}
+    a {
+        display: flex !important;
+        justify-content: center;
 
- img {
+    }
+
+    img {
         width: 150px;
         height: 150px;
         background-color: black;
-      
+
     }
-       
-    
+
+
 }
 
 h1 {
@@ -35,11 +51,7 @@ h1 {
 
 }
 
-.fila2 {
 
-    border-top: black solid;
-
-}
 
 .catalogo {
     display: grid;
@@ -81,10 +93,35 @@ h3 {
     display: grid;
     grid-template-columns: 3fr 3fr 3fr 3fr;
     justify-items: center;
-    background-color: grey;
+    background-color: black;
     color: white;
     margin-top: 10px;
 }
+
+/* SECCION CONTACTANOS */
+.contactanos {
+    padding: 10px;
+}
+
+.btn-succes {
+    color: white;
+    background-color: green;
+}
+
+.btn-ig {
+    color: white;
+    background-color: blueviolet;
+}
+
+.btn-face {
+    color: white;
+    background-color: blue;
+}
+
+.texto_mail {
+    margin-top: 20px;
+}
+
 
 
 /* RESPONSIVE */
