@@ -1,76 +1,117 @@
-img{
+img {
     width: 150px;
     height: 150px;
+
+}
+
+
+.navegacion {
+    background-color: black;
+
+ a{
+    display: flex !important;
+    justify-content: center;
     
 }
 
-
-.navegacion{
-    background-color: black;
+ img {
+        width: 150px;
+        height: 150px;
+        background-color: black;
+      
+    }
+       
     
-img{
-    width: 100px;
-    height: 100px;
-    background-color: black;
-}
 }
 
-h1{
-   color: black; 
-text-align: center;
+h1 {
+    color: black;
+    text-align: center;
 }
 
 .btn-primary {
     border-radius: 50px;
     color: black;
-    
-}
-
-.fila2{
- border:black solid
 
 }
 
-.catalogo{
+.fila2 {
+
+    border-top: black solid;
+
+}
+
+.catalogo {
     display: grid;
-    grid-template-columns: 3fr 3fr 3fr ;
+    grid-template-columns: 3fr 3fr 3fr;
     align-items: center;
     justify-items: center;
 }
 
-.catalogo div{
-   
-   border-radius: 30px;
-padding: 10px; 
-margin: 10px;
-display: flex;
-flex-direction: column;
-align-items: center;
-height: 450px;
-width: 400px;
-box-shadow: 3px 3px 3px 3px grey;
+.catalogo div {
+
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
+    width: 400px;
+    box-shadow: 3px 3px 3px 3px grey;
 
 }
 
-.catalogo div img{
+.catalogo div img {
     height: 300px;
     width: 300px;
-    
- }
- .catalogo button{
-    display: flex; 
+
+}
+
+.catalogo button {
+    display: flex;
     border-radius: 10px;
- }
+}
 
- h3{
-    color: red;  
- }
+h3 {
+    color: red;
+}
 
-.footer{
+.footer {
     display: grid;
-    grid-template-columns: 3fr 3fr 3fr 3fr 3fr;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
     justify-items: center;
-   background-color: grey;
-   color: white;
-   margin-top: 10px;
+    background-color: grey;
+    color: white;
+    margin-top: 10px;
+}
+
+
+/* RESPONSIVE */
+@media (max-width:1360px) {
+    .catalogo {
+        grid-template-columns: 6fr 6fr;
+
+    }
+
+}
+
+@media (max-width:992px) {
+    .catalogo {
+        grid-template-columns: 12fr;
+
+    }
+
+    .footer {
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+}
+
+@media (min-width: 1360px) {
+    .navbar-expand-lg {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
 }
