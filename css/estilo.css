@@ -1,3 +1,8 @@
+
+.row{
+align-items: baseline;
+padding-right: 50px;
+}
 .carousel {
 
     width: 1000px;
@@ -141,8 +146,11 @@ h3 {
 
     .footer {
         grid-template-columns: 1fr 1fr;
-
+        justify-items: start;
+        padding: 20px;
     }
+
+    
 
 }
 
@@ -151,4 +159,5 @@ h3 {
         flex-wrap: nowrap;
         justify-content: flex-start;
     }
+    
 }
