@@ -28,21 +28,6 @@ img {
 .navegacion {
     background-color: black;
     border-bottom: black solid;
-
-    a {
-        display: flex !important;
-        justify-content: center;
-
-    }
-
-    img {
-        width: 150px;
-        height: 150px;
-        background-color: black;
-
-    }
-
-
 }
 
 h1 {
